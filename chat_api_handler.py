@@ -1,4 +1,7 @@
-from utils import convert_bytes_to_base64_with_prefix, load_config, convert_bytes_to_base64, convert_ns_to_seconds
+from utils import (convert_bytes_to_base64_with_prefix, 
+                   load_config, 
+                   convert_bytes_to_base64, 
+                   convert_ns_to_seconds)
 from vectordb_handler import load_vectordb
 from dotenv import load_dotenv
 import streamlit as st

@@ -9,7 +9,8 @@ css ="""
         /* AI Chat Message */
     
         .st-emotion-cache-4oy321 {
-            background-color: #475063;
+            background-color: #f8f8fa;
+            color: white;
         }
 
         section[data-testid="stSidebar"] {

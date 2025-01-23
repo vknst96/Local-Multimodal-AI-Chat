@@ -100,7 +100,7 @@ def main():
     chat_container = st.container()
     user_input = st.chat_input("Type your message here", key="user_input")
     
-    uploaded_pdf = st.sidebar.file_uploader("Upload a pdf file", accept_multiple_files=True, 
+    uploaded_pdf = st.sidebar.file_uploader("Upload pdf file(s)", accept_multiple_files=True, 
                                         key=st.session_state.pdf_uploader_key, type=["pdf"], on_change=toggle_pdf_chat)
     uploaded_image = st.sidebar.file_uploader("Upload an image file", type=["jpg", "jpeg", "png"], on_change=detoggle_pdf_chat)
     uploaded_audio = st.sidebar.file_uploader("Upload an audio file", type=["wav", "mp3", "ogg"], key=st.session_state.audio_uploader_key)

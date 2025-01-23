@@ -39,7 +39,7 @@ def command(user_input):
         return "Possible commands:\n- /pull <model_name>"
     else:    
         return """Invalid command, please use one of the following:\n
-                    - /help\n
+                    - /help
                     - /pull <model_name>"""
 
 def pull_ollama_model(model_name):
